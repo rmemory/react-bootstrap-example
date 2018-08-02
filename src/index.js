@@ -1,4 +1,10 @@
-/* eslint-disable implicit-arrow-linebreak */
+/* eslint-disable implicit-arrow-linebreak, no-unused-vars */
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+
 import { AppContainer } from 'react-hot-loader';
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -23,4 +29,3 @@ render(App);
 if (module.hot) {
 	module.hot.accept('./components/App.jsx', () => render(App));
 }
-
